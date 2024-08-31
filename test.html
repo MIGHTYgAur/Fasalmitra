@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Disease Prediction</title>
+</head>
+<body>
+    <h1>Fasal Mitra - Crop Disease Prediction</h1>
+    <form id="uploadForm" enctype="multipart/form-data">
+        <input type="file" id="imageInput" name="image" accept="image/*" required>
+        <button type="submit">Predict Disease</button>
+    </form>
+    <div id="result"></div>
+
+    <script>
+        document.getElementById('uploadForm').onsubmit = async function(event) {
+            event.preventDefault();
+            
+            const formData = new FormData();
+            formData.append('file', document.getElementById('imageInput').files[0]);
+
+            const response = await fetch('http://127.0.0.1:5000/predict', {
+                method: 'POST',
+                body: formData
+            });
+
+            const result = await response.json();
+            document.getElementById('result').textContent = 'Predicted Class: ' + result.predicted_class;
+        };
+    </script>
+</body>
+</html>
