@@ -2,7 +2,10 @@
 
 India is an agrarian economy where a significant portion of the population relies on agriculture. By identifying diseases early, farmers can take corrective actions to protect their crops, ensuring higher yields and better quality produce. 
 Implementing an early crop disease detection model can significantly enhance the resilience and productivity of Indian agriculture, benefiting both farmers and the broader economy.
+<br>
 The application will serve as a tool for farmers, agricultural experts, and extension workers to identify crop diseases at an early stage and take necessary actions to prevent widespread damage. 
+<br><br>
+<img src = "fasalmitra_homepgae-ezgif.com-cut.gif" alt="homepage">
 
 
 ## Tech Stack
