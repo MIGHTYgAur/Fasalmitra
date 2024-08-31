@@ -7,7 +7,7 @@ const Landing = () => {
       <div className=" ">
 
 <img src="https://st5.depositphotos.com/81161912/66752/i/450/depositphotos_667522276-stock-photo-maharashtra-look-farmer-happy-farmer.jpg" class="w-[100%] absolute -top-[28vh] " alt="" />
-<div className="w-[100vw] h-[100vh] bg-[#333333] opacity-35 relative -top-[5vh]  "></div>
+<div className="w-[100vw] h-[100vh] bg-[#333333] opacity-25 relative -top-[5vh]  "></div>
 
 <p class="text-white text-[3rem] relative -top-[70vh] left-[7%] font-[Siri_Medium] font-bold">Transforming Agriculture <br /> with <br />AI-Powered Precision 
 
@@ -15,7 +15,7 @@ const Landing = () => {
 </div>
       </div>
 
-<div id="page2" class="relative bg-[#384c34] h-[80vh] -mt-[30vh] p-10 flex justify-center align-center rounded-t-3xl  -top-[10vh]">
+{/* <div id="page2" class="relative bg-[#384c34] h-[80vh] -mt-[30vh] p-10 flex justify-center align-center rounded-t-3xl  -top-[10vh]">
 
 
       <div className="w-[80vw] h-[60] bg-whit flex justify-center items-strech gap-12">
@@ -72,7 +72,7 @@ const Landing = () => {
 
       
       </div>
-</div>
+</div> */}
     </div>
   )
 }
