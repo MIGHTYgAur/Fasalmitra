@@ -9,7 +9,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import CropSlider from './components/Cropslider';
 import TwoStripes from './components/TwoStripes';
-
+import ChooseFile from './components/ChooseFile';
+import Weather from './components/Weather';
+// import Joke from './components/Jokes';
 
 
 function App() {
@@ -27,8 +29,10 @@ function App() {
     <Landing></Landing>
    <CropSlider></CropSlider>
    <TwoStripes></TwoStripes>
-    
-    <input type="file" />
+    <ChooseFile></ChooseFile>
+    {/* <input type="file" /> */}
+    <Weather></Weather>
+    {/* <Joke></Joke> */}
     </div>
     </>
   )

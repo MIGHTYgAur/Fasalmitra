@@ -6,7 +6,7 @@ const Landing = () => {
       <div id="page1" className='relative '>
       <div className=" ">
 
-<img src="https://spontaneousorder.in/wp-content/uploads/2021/01/Ramkumar-Radhakrishnan-Wikimedia-1569929663.jpeg" class="w-[100%] absolute -top-[28vh]" alt="" />
+<img src="https://st5.depositphotos.com/81161912/66752/i/450/depositphotos_667522276-stock-photo-maharashtra-look-farmer-happy-farmer.jpg" class="w-[100%] absolute -top-[28vh] " alt="" />
 <div className="w-[100vw] h-[100vh] bg-[#333333] opacity-35 relative -top-[5vh]  "></div>
 
 <p class="text-white text-[3rem] relative -top-[70vh] left-[7%] font-[Siri_Medium] font-bold">Transforming Agriculture <br /> with <br />AI-Powered Precision 
@@ -18,12 +18,12 @@ const Landing = () => {
 <div id="page2" class="relative bg-[#384c34] h-[80vh] -mt-[30vh] p-10 flex justify-center align-center rounded-t-3xl  -top-[10vh]">
 
 
-      <div className="w-[80vw] h-[60vh] bg-whit flex justify-center align-center gap-12">
+      <div className="w-[80vw] h-[60] bg-whit flex justify-center items-strech gap-12">
 
-      <div className="w-[25%] bg-yellow-200 rounded-3xl relative  ">
+      <div className="w-[25] bg-yellow-200 rounded-3xl relative p-1 ">
 
        <div className="flex justify-center m-4 h-[35%]">
-       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DyBMMe0hRr-Z1ovaTw0T5DZVg_DFnbo-bg&s" alt="" className="rounded-4 w-[80%]  relative "/>
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DyBMMe0hRr-Z1ovaTw0T5DZVg_DFnbo-bg&s" alt="" className="rounded-4 w-[80%]  relative rounded-xl"/>
        </div>
 
         <div class="text-black flex 
@@ -35,10 +35,10 @@ const Landing = () => {
         </div>
       </div>
 
-      <div className="w-[25%] bg-yellow-100 rounded-3xl">
+      <div className="w-[25] bg-yellow-100 rounded-3xl">
 
       <div className="flex justify-center m-4 h-[35%]">
-       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqlUXlMT4VfC2jqv8ttvJdr8mxCN78lLkhqA&s" alt="" className="rounded-4 w-[80%]  relative "/>
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqlUXlMT4VfC2jqv8ttvJdr8mxCN78lLkhqA&s" alt="" className="rounded-4 w-[80%]  relative rounded-xl"/>
        </div>
 
         <div class="text-black flex 
@@ -52,10 +52,10 @@ const Landing = () => {
 
       </div>
 
-      <div className="w-[25%] bg-green-400 rounded-3xl">
+      <div className="w-[25] bg-green-400 rounded-3xl">
 
       <div className="flex justify-center m-4 h-[35%]">
-       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqlUXlMT4VfC2jqv8ttvJdr8mxCN78lLkhqA&s" alt="" className="rounded-4 w-[80%]  relative "/>
+       <img src="https://plantix.net/en/library/assets/custom/crop-images/potato.jpeg" alt="" className="rounded-4 w-[80%]  relative rounded-xl"/>
        </div>
 
         <div class="text-black flex 
@@ -69,6 +69,8 @@ const Landing = () => {
         </div>
 
       </div>
+
+      
       </div>
 </div>
     </div>
