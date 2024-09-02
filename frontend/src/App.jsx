@@ -11,12 +11,9 @@ import CropSlider from './components/Cropslider';
 import TwoStripes from './components/TwoStripes';
 import ChooseFile from './components/ChooseFile';
 import Weather from './components/Weather';
-<<<<<<< Updated upstream
-=======
 import Boost from './components/Boost';
 import Page2 from './components/Page2';
 // import Joke from './components/Jokes';
->>>>>>> Stashed changes
 
 
 function App() {

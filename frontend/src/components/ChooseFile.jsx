@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 // import React, { useState } from 'react'
 // // import { useState } from 'react';
 
@@ -114,8 +113,6 @@
 
 // export default ChooseFile;
 
-
->>>>>>> Stashed changes
 import React, { useState } from 'react';
 
 const ChooseFile = () => {
@@ -134,7 +131,6 @@ const ChooseFile = () => {
     }
   };
 
-<<<<<<< Updated upstream
   const handleSubmit = async (event) => {
     event.preventDefault();
 
@@ -160,11 +156,11 @@ const ChooseFile = () => {
     }
   };
 
-  return (
-    <div className="bg-[#263c28]">
-      <div className="h-[100vh] flex justify-center items-center bg-[#9CAE0C] rounded-t-3xl">
-=======
-  // const handleSubmit = async (event) => {
+  // return (
+  //   <div className="bg-[#263c28]">
+  //     <div className="h-[100vh] flex justify-center items-center bg-[#9CAE0C] rounded-t-3xl">
+
+  // //  const handleSubmit = async (event) {
   //   event.preventDefault();
 
   //   const formData = new FormData();
@@ -190,34 +186,32 @@ const ChooseFile = () => {
   // };
 
 
-  async function handleSubmit(event) {
-    event.preventDefault();
-    try {
-      const response = await fetch('http://127.0.0.1:5000/predict', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ key: 'value' }), // Adjust your data here
-      });
+  // async function handleSubmit(event) {
+  //   event.preventDefault();
+  //   try {
+  //     const response = await fetch('http://127.0.0.1:5000/predict', {
+  //       method: 'POST',
+  //       headers: {
+  //         'Content-Type': 'application/json',
+  //       },
+  //       body: JSON.stringify({ key: 'value' }), // Adjust your data here
+  //     });
   
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
+  //     if (!response.ok) {
+  //       throw new Error('Network response was not ok');
+  //     }
   
-      const result = await response.json();
-      console.log(result);
-    } catch (error) {
-      console.error('Fetch error:', error);
-    }
-  }
-  
-
+  //     const result = await response.json();
+  //     console.log(result);
+  //   } catch (error) {
+  //     console.error('Fetch error:', error);
+  //   }
+  // }
   return (
     <div className="bg-[#263c2] bg-[#A3B928] ">
       <div className="h-[100vh] flex flex-col justify-center items-center bg-[#9CAE0] bg-[#98AF19] rounded-t-3xl mb-4">
         <h1 style={{wordSpacing:"1vh",letterSpacing:"6px"}} className="font-bold font-roboto text-4xl tracking-strech" >Check health of Wheat Crop </h1>
->>>>>>> Stashed changes
+
         <div className="w-[30vw] h-[60vh] rounded-3xl bg-[#95A420] flex flex-col justify-center content-center items-center m-6">
           <div className="w-[60%] h-[40%] bg-white flex justify-center items-center overflow-hidden">
             {imagePreview ? (
@@ -232,7 +226,7 @@ const ChooseFile = () => {
           </button>
           {predictedClass && (
             <p className="mt-4 text-white">
-              Predicted Class: {predictedClass} ({(probability * 100).toFixed(2)}%)
+              Predicted disease: {predictedClass}
             </p>
           )}
         </div>
