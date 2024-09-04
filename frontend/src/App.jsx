@@ -13,6 +13,7 @@ import ChooseFile from './components/ChooseFile';
 import Weather from './components/Weather';
 import Boost from './components/Boost';
 import Page2 from './components/Page2';
+import RecentActivity from './components/RecentActivity';
 // import Joke from './components/Jokes';
 
 

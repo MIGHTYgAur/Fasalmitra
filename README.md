@@ -12,7 +12,7 @@ The application will serve as a tool for farmers, agricultural experts, and exte
 
 **Frontend:** React, TailwindCSS
 
-**Backend:** Node, Express
+**Backend:** Flask
 
 **Machine Learning:** TensorFlow for model development, with OpenCV for image processing
 
