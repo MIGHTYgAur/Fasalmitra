@@ -13,7 +13,7 @@ import ChooseFile from './components/ChooseFile';
 import Weather from './components/Weather';
 import Boost from './components/Boost';
 import Page2 from './components/Page2';
-import RecentActivity from './components/RecentActivity';
+import Footer from './components/Footer';
 // import Joke from './components/Jokes';
 
 
@@ -36,6 +36,7 @@ function App() {
    <TwoStripes></TwoStripes>
     <Boost></Boost>
     <ChooseFile></ChooseFile>
+    {/* <Footer></Footer> */}
     {/* <input type="file" /> */}
     {/* <Joke></Joke> */}
     </div>
