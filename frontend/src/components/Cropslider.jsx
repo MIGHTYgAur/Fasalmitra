@@ -34,7 +34,7 @@ const CropSlider = () => {
 
       <div className="bg-[#384c34]">
 
-    <div className=" bg-[#263c28] h-[70vh] -mt-[10vh] z-2 rounded-t-3xl ">
+    <div className=" bg-[#263c28] h-[50vh] -mt-[10vh] z-2 rounded-t-3xl ">
          <div className=" relative left-[17%] w-[67%] p-4 translate-y-[10vh]">
          <div className="crop-slider">
             <Slider {...settings}>

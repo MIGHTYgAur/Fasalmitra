@@ -116,8 +116,8 @@ function Weather() {
     <div className="bg-[#384c3] bg-[#024535]">
 
 
-    <div className="h-[100vh] w-[99vw] flex justify-center items-center bg-blue-20 bg-[#0B4D3E] -mt-[10vh] rounded-3xl">
-      <div className="w-[40vw] h-[60vh] bg-white rounded-xl p-6 shadow-lg  ">
+    <div className="h-[85vh] w-[99vw] flex justify-center items-center bg-blue-20 bg-[#0B4D3E] -mt-[10vh] rounded-3xl">
+      <div className="relative top-[-5%] w-[40vw] h-[60vh] bg-white rounded-xl p-6 shadow-lg  ">
         <h1 className="text-4xl font-bold mb-4 flex justify-center">Weather Forecast</h1>
 
 

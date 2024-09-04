@@ -132,7 +132,6 @@ return(
                 </div>
 
                 <div className="bg-blue-100 p-2 rounded-xl">
-                  
                   Leaf rust is the most common rust disease of wheat . The symptoms depend on the susceptibility of the plant affected. It is characterized by numerous small reddish orange to brown pustules scattered on both surfaces of leaves, leaf sheaths and husks. They are surfaces of leaves, leaf sheaths and husks. They are up to 1.5 mm in diameter, slightly raised and round to oblong. In vulnerable plants, tiny secondary pimples and pale green or yellow halo can appear around the primary pustules. Over time. the color turns to dark brown or black. In more resistant wheat varieties, the orange pustule are usually smaller and they might be surrounded by chlorotic or necrotic water loss, and reduced productivity. These symtoms, added to reduced floral set and grain shriveling, compromise the yield.
                 </div>
 

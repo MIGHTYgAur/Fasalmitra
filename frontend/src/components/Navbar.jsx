@@ -17,9 +17,7 @@ const Navbar = () => {
         <p class="text-[19px] mt-2">Contact Us</p>
       </div>
 
-      <div className=" flex align-center gap-8 z-10">
-        <button className="border-2 w-[6vw]   mt-2 mb-2 rounded-full ">Log in</button>
-        <button className='mr-10 border-2 mt-2 mb-2 align-center rounded-full bg-white w-[6vw] border-[#384c34]'>Sign Up</button>
+      <div className="flex align-center gap-8 z-10">
       </div>
 
     </div>
