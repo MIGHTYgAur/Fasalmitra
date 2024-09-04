@@ -112,7 +112,6 @@
 
 // export default ChooseFile;
 
-
 import React, { useState } from 'react';
 
 const ChooseFile = () => {
@@ -229,7 +228,7 @@ const ChooseFile = () => {
           </button>
           {predictedClass && (
             <p className="mt-4 text-white">
-              Predicted Class: {predictedClass} ({(probability * 100).toFixed(2)}%)
+              Predicted disease: {predictedClass}
             </p>
           )}
         </div>
