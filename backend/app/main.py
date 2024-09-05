@@ -13,7 +13,7 @@ CORS(app)
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Build the path to the model file
-file_path = os.path.join(current_dir, "..", "..", "model", "model_wheat.h5")
+file_path = os.path.join(current_dir, "..", "..", "model", "model_wheat_vgg.h5")
 print(file_path)
 # Load the model using the file path
 
