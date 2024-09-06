@@ -155,7 +155,7 @@ return(
           }
 
 
-  { predictedClass==='Healthy Plant' && (
+  { predictedClass==='Healthy' && (
 
   <div className="">
     <p class="flex justify-center font-bold text-[4vh]">Healthy Plant</p>
