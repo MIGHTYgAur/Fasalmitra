@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from PIL import Image
-from utils.preprocessing import preprocess_image
+from .utils.preprocessing import preprocess_image
 import numpy as np
 import tensorflow as tf
 from flask_cors import CORS
