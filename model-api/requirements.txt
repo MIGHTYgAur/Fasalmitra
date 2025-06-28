@@ -4,3 +4,4 @@ numpy>=1.26.0,<2.0.0
 Pillow==10.4.0
 tensorflow==2.17.0
 tensorflow_intel==2.17.0
+gunicorn==23.0.0
