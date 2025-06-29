@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from PIL import Image
-from .utils.preprocessing import preprocess_image
+from utils.preprocessing import preprocess_image
 import numpy as np
 import tensorflow as tf
 from flask_cors import CORS
@@ -8,7 +8,7 @@ from tensorflow.keras.models import load_model
 import os
 
 app = Flask(__name__)
-CORS(app, origins=['http://localhost:5173', 'http://localhost:3000/'])
+CORS(app, origins=['http://localhost:5173', 'http://localhost:3000'])
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 # Load the model from the specified path

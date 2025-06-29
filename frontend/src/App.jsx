@@ -1,4 +1,4 @@
-// import { useState } from 'react'
+import { useState } from 'react'
 // import MySwiper from "./components/MySwiper"
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import MyCarousel from "./components/MyCarousel";
@@ -18,27 +18,31 @@ import Footer from './components/Footer';
 
 
 function App() {
-  // const [count, setCount] = useState(0)
+  const [apiData, setApiData] = useState({
+    location: '',
+    rain: '',
+    temperature: '',
+    windSpeed: '',
+    soilTemp: ''
+  });
 
   return (
 
     <>
-    <div class=" overflow-x-hidden ">
+    <div className="overflow-x-hidden">
 
-
-    <title>AgriScan</title>
-      <Navbar></Navbar>
-    
-    <Landing></Landing>
-    <Page2></Page2>
-   <Weather></Weather>
-   <CropSlider></CropSlider>
-   <TwoStripes></TwoStripes>
-    <Boost></Boost>
-    <ChooseFile></ChooseFile>
-    {/* <Footer></Footer> */}
-    {/* <input type="file" /> */}
-    {/* <Joke></Joke> */}
+      <title>AgriScan</title>
+      <Navbar />
+      <Landing />
+      <Page2 />
+      <Weather apiData={apiData} setApiData={setApiData} />
+      <CropSlider />
+      <TwoStripes />
+      <Boost />
+      <ChooseFile apiData={apiData} />
+      {/* <Footer /> */}
+      {/* <input type="file" /> */}
+      {/* <Joke /> */}
     </div>
     </>
   )
