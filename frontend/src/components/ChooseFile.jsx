@@ -35,7 +35,8 @@ const ChooseFile = ({apiData}) => {
 
     setLoading(true);
     try {
-      const response = await fetch('http://localhost:3000/api/user/predict', {
+      const BACKEND_URL = import.meta.env.VITE_BACKEND_URL+"/user/predict" || "http://localhost:3000/api/user/predict";
+      const response = await fetch(BACKEND_URL, {
         method: 'POST',
         body: formData,
       });
