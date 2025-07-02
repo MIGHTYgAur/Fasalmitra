@@ -8,7 +8,7 @@ from tensorflow.keras.models import load_model
 import os
 
 app = Flask(__name__)
-CORS(app, origins=['http://localhost:5173', 'http://localhost:3000'])
+CORS(app, origins=[os.environ.get("BACKEND_URL", "http://localhost:5000")])
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 # Load the model from the specified path
